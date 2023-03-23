@@ -1,0 +1,9 @@
+2021-06-09 14:37:58.079 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-09 14:37:58.497 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2021-06-09 14:37:58.586 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2021-06-09 14:54:34.659 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-09 14:54:34.950 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2021-06-09 14:54:35.017 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2021-06-09 15:00:11.538 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-06-09 15:00:11.787 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2021-06-09 15:00:11.852 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void

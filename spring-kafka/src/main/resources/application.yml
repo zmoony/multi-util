@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: 172.17.112.123:9092
+    consumer:
+      group-id: test-consumer
+      auto-offset-reset: earliest
+

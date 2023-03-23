@@ -1,0 +1,12 @@
+2023-03-23 13:42:48.580 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-03-23 13:42:51.272 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-03-23 13:42:51.502 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-03-23 13:42:51.557 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-03-23 14:47:52.193 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-03-23 14:47:54.821 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-03-23 14:47:55.088 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-03-23 14:47:55.157 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-03-23 14:50:27.837 [background-preinit] WARN  o.s.h.converter.json.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-03-23 14:50:30.365 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-03-23 14:50:30.589 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+2023-03-23 14:50:30.646 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void

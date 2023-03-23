@@ -1,0 +1,160 @@
+2022-09-07 17:45:39.348 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 14472 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:45:39.350 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:45:42.232 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:45:42.312 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@49190ed6
+2022-09-07 17:45:42.312 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:45:44.003 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:45:44.358 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:45:45.198 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 6.308 seconds (JVM running for 8.029)
+2022-09-07 17:45:45.200 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:45:45.972 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:46:05.097 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 170404 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:46:05.098 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:46:07.833 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:46:07.924 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@7845b21a
+2022-09-07 17:46:07.925 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:46:09.283 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:46:09.632 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:46:10.394 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.849 seconds (JVM running for 7.275)
+2022-09-07 17:46:10.395 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:46:10.687 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:46:37.538 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 170036 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:46:37.540 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:46:40.417 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:46:40.486 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@51f01535
+2022-09-07 17:46:40.486 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:46:41.544 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:46:41.899 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:46:42.831 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.816 seconds (JVM running for 7.106)
+2022-09-07 17:46:42.832 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:46:43.167 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:47:18.802 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 186668 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:47:18.804 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:47:21.367 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:47:21.440 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 17:47:21.440 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:47:22.459 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:47:22.793 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:47:23.548 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.262 seconds (JVM running for 6.332)
+2022-09-07 17:47:23.549 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:47:24.360 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:47:42.068 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 167600 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:47:42.069 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:47:44.687 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:47:44.761 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 17:47:44.761 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:47:45.668 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:47:45.968 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:47:46.660 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.076 seconds (JVM running for 6.118)
+2022-09-07 17:47:46.662 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:47:47.387 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:50:24.772 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 153928 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:50:24.773 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:50:27.351 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:50:27.427 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@51f01535
+2022-09-07 17:50:27.427 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:50:28.485 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:50:28.823 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:50:29.631 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.433 seconds (JVM running for 6.725)
+2022-09-07 17:50:29.633 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:50:30.025 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:50:46.354 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 173392 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:50:46.355 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:50:49.143 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:50:49.220 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@7845b21a
+2022-09-07 17:50:49.220 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:50:50.632 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:50:50.961 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:50:51.721 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.866 seconds (JVM running for 7.046)
+2022-09-07 17:50:51.723 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:50:52.699 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:52:48.035 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 187292 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:52:48.037 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:52:50.546 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:52:50.613 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 17:52:50.613 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:52:51.606 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:52:51.867 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:52:52.513 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 4.993 seconds (JVM running for 5.925)
+2022-09-07 17:52:52.514 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:52:59.390 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:53:21.241 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 176056 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:53:21.243 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:53:23.979 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:53:24.047 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@77ea806f
+2022-09-07 17:53:24.048 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:53:25.097 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:53:25.434 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:53:26.199 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.479 seconds (JVM running for 6.616)
+2022-09-07 17:53:26.200 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:53:26.508 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:54:48.114 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 186920 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:54:48.115 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:54:50.586 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:54:50.652 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 17:54:50.652 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:54:51.514 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:54:51.792 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:54:52.436 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 4.807 seconds (JVM running for 5.726)
+2022-09-07 17:54:52.437 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:54:52.702 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:55:28.775 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 11336 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:55:28.776 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:55:31.198 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:55:31.268 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@1e3ff233
+2022-09-07 17:55:31.269 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:55:32.572 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:55:32.887 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:55:33.584 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.28 seconds (JVM running for 6.274)
+2022-09-07 17:55:33.586 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:55:33.817 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:57:34.064 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 14472 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 17:57:34.066 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 17:57:36.501 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 17:57:36.571 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 17:57:36.571 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 17:57:37.404 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 17:57:37.717 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 17:57:38.408 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 4.806 seconds (JVM running for 5.77)
+2022-09-07 17:57:38.409 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 17:57:38.748 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:02:13.810 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 185236 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 18:02:13.811 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 18:02:16.345 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 18:02:16.418 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@7845b21a
+2022-09-07 18:02:16.418 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 18:02:17.469 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 18:02:17.843 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:02:18.679 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.357 seconds (JVM running for 6.672)
+2022-09-07 18:02:18.681 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 18:02:18.999 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:04:10.224 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 74160 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 18:04:10.225 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 18:04:12.756 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 18:04:12.838 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 18:04:12.839 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 18:04:13.700 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 18:04:13.989 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:04:14.666 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 4.928 seconds (JVM running for 5.83)
+2022-09-07 18:04:14.667 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 18:04:14.938 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:05:24.889 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 163152 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 18:05:24.890 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 18:05:27.519 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 18:05:27.611 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@51f01535
+2022-09-07 18:05:27.611 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 18:05:28.593 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 18:05:28.909 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:05:29.692 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.316 seconds (JVM running for 6.455)
+2022-09-07 18:05:29.693 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 18:05:30.025 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:06:26.378 [main] INFO  com.boot.es.test.AllSearchTest - Starting AllSearchTest using Java 1.8.0_131 on aurora with PID 174404 (started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-es)
+2022-09-07 18:06:26.379 [main] INFO  com.boot.es.test.AllSearchTest - The following profiles are active: dev,elasticsearch
+2022-09-07 18:06:28.877 [main] INFO  com.boot.es.common.GlobalObject - elasticsearch信息初始化成功
+2022-09-07 18:06:28.950 [main] INFO  com.boot.es.util.ElasticsearchUtils -  es init data org.elasticsearch.client.RestHighLevelClient@70029d2d
+2022-09-07 18:06:28.950 [main] INFO  com.boot.es.util.ElasticsearchUtils - Elasticsearch初始化配置注入成功！
+2022-09-07 18:06:30.047 [main] INFO  com.boot.es.config.ESConfig - 通用-集群状态:{"cluster_name":"wiscom","status":"green","timed_out":false,"number_of_nodes":1,"number_of_data_nodes":1,"active_primary_shards":0,"active_shards":0,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0,"delayed_unassigned_shards":0,"number_of_pending_tasks":0,"number_of_in_flight_fetch":0,"task_max_waiting_in_queue_millis":0,"active_shards_percent_as_number":100.0}
+2022-09-07 18:06:30.329 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 18:06:30.979 [main] INFO  com.boot.es.test.AllSearchTest - Started AllSearchTest in 5.038 seconds (JVM running for 5.926)
+2022-09-07 18:06:30.980 [main] INFO  com.boot.es.EsApplication - 启动成功
+2022-09-07 18:06:31.223 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

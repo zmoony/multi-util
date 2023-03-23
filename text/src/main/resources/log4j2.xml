@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" monitorInterval="30">
+    <!--全局参数-->
+    <Properties>
+        <Property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS}|%level|[%thread]|%logger{0}|%method|%line - %msg%n</Property>
+        <!--定义log路径-->
+        <Property name="logDir">log</Property>
+        <!--定义log文件名-->
+        <Property name="logName">text</Property>
+    </Properties>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="rolling_file"/>
+        </Root>
+    </Loggers>
+
+    <Appenders>
+        <!-- 定义输出到控制台 -->
+        <Console name="console" target="SYSTEM_OUT" follow="true">
+            <!--控制台只输出level及以上级别的信息-->
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>${pattern}</Pattern>
+            </PatternLayout>
+        </Console>
+        <!-- 同一来源的Appender可以定义多个RollingFile，定义按天存储日志 -->
+        <RollingFile name="rolling_file"
+                     fileName="${logDir}/${logName}.log"
+                     filePattern="${logDir}/$${date:yyyy-MM-dd}/${logName}_%d{yyyy-MM-dd}-%i.log.gz">
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout>
+                <Pattern>${pattern}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!--触发日志rollover的时间单位，1表示一个时间单位-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <!--触发日志rollover的长度单位，250m表示超过这个文件大小则触发rollover-->
+                <SizeBasedTriggeringPolicy size="20m"/>
+            </Policies>
+            <!--每日log文件最多20个-->
+            <DefaultRolloverStrategy max="200">
+            <!--maxDepth表示扫描路径深度，2为basePath下一级目录文件-->
+            <Delete basePath="${logDir}/" maxDepth="2">
+                <IfFileName glob="${logName}_*.log.gz" />
+                <!-- 日志保留策略，配置只保留十五天 -->
+                <IfLastModified age="15d" />
+            </Delete>
+        </DefaultRolloverStrategy>
+
+        </RollingFile>
+    </Appenders>
+</Configuration>

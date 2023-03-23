@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCollection">
+    <option name="detail">
+      <CollectionDetail>
+        <option name="childList">
+          <list>
+            <CollectionDetail>
+              <option name="childList">
+                <list>
+                  <CollectionDetail>
+                    <option name="childList">
+                      <list>
+                        <CollectionDetail>
+                          <option name="domain" value="http://localhost:9090" />
+                          <option name="enableEnv" value="dev" />
+                          <option name="enableProject" value="test" />
+                          <option name="id" value="id_com.example.text.demoOnLine.参数校验.Test2Controller.update" />
+                          <option name="name" value="New Request" />
+                          <option name="paramGroup">
+                            <ParamGroupCollection>
+                              <option name="bodyKeyValueListJson" value="{&#10;}" />
+                              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+                              <option name="method" value="update" />
+                              <option name="methodDescription" value="New Request" />
+                              <option name="methodType" value="PUT" />
+                              <option name="multipartKeyValueListJson" value="[]" />
+                              <option name="originUrl" value="/students" />
+                              <option name="pathParamsKeyValueListJson" value="[]" />
+                              <option name="url" value="/students" />
+                              <option name="urlEncodedKeyValueListJson" value="[]" />
+                              <option name="urlParamsKeyValueListJson" value="[]" />
+                            </ParamGroupCollection>
+                          </option>
+                          <option name="type" value="2" />
+                        </CollectionDetail>
+                        <CollectionDetail>
+                          <option name="domain" value="http://localhost:9090" />
+                          <option name="enableEnv" value="dev" />
+                          <option name="enableProject" value="test" />
+                          <option name="id" value="id_com.example.text.demoOnLine.参数校验.Test2Controller.test" />
+                          <option name="name" value="New Request" />
+                          <option name="paramGroup">
+                            <ParamGroupCollection>
+                              <option name="bodyKeyValueListJson" value="{}" />
+                              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+                              <option name="method" value="test" />
+                              <option name="methodDescription" value="New Request" />
+                              <option name="multipartKeyValueListJson" value="[]" />
+                              <option name="originUrl" value="/test2" />
+                              <option name="pathParamsKeyValueListJson" value="[]" />
+                              <option name="url" value="/test2" />
+                              <option name="urlEncodedKeyValueListJson" value="[]" />
+                              <option name="urlParamsKeyValueListJson" value="[]" />
+                            </ParamGroupCollection>
+                          </option>
+                          <option name="type" value="2" />
+                        </CollectionDetail>
+                      </list>
+                    </option>
+                    <option name="id" value="20230221153946600" />
+                    <option name="name" value="Test2Controller" />
+                    <option name="type" value="3" />
+                  </CollectionDetail>
+                  <CollectionDetail>
+                    <option name="childList">
+                      <list>
+                        <CollectionDetail>
+                          <option name="domain" value="localhost:9090" />
+                          <option name="enableEnv" value="dev" />
+                          <option name="enableProject" value="temp" />
+                          <option name="id" value="id_com.example.text.webTest.FileController.fileUpload" />
+                          <option name="name" value="New Request" />
+                          <option name="paramGroup">
+                            <ParamGroupCollection>
+                              <option name="bodyKeyValueListJson" value="" />
+                              <option name="className" value="com.example.text.webTest.FileController" />
+                              <option name="method" value="fileUpload" />
+                              <option name="methodDescription" value="New Request" />
+                              <option name="methodType" value="POST" />
+                              <option name="multipartKeyValueListJson" value="[{&quot;customFlag&quot;:2,&quot;enabled&quot;:true,&quot;key&quot;:&quot;file&quot;,&quot;type&quot;:&quot;File&quot;,&quot;value&quot;:&quot;C:/Users/yuez/Desktop/1679445521171.jpg&quot;}]" />
+                              <option name="originUrl" value="/upload" />
+                              <option name="pathParamsKeyValueListJson" value="[]" />
+                              <option name="url" value="/upload" />
+                              <option name="urlEncodedKeyValueListJson" value="[]" />
+                              <option name="urlEncodedKeyValueListText" value="" />
+                              <option name="urlParamsKeyValueListJson" value="[]" />
+                              <option name="urlParamsKeyValueListText" value="" />
+                            </ParamGroupCollection>
+                          </option>
+                          <option name="type" value="2" />
+                        </CollectionDetail>
+                      </list>
+                    </option>
+                    <option name="id" value="20230322091105320" />
+                    <option name="name" value="FileController" />
+                    <option name="type" value="1" />
+                  </CollectionDetail>
+                </list>
+              </option>
+              <option name="id" value="20230221153947596" />
+              <option name="name" value="text" />
+              <option name="type" value="4" />
+            </CollectionDetail>
+            <CollectionDetail>
+              <option name="groupId" value="1" />
+              <option name="id" value="1" />
+              <option name="name" value="Default Group" />
+              <option name="type" value="1" />
+            </CollectionDetail>
+          </list>
+        </option>
+        <option name="groupId" value="-1" />
+        <option name="id" value="0" />
+        <option name="name" value="Root" />
+        <option name="type" value="1" />
+      </CollectionDetail>
+    </option>
+  </component>
+</project>

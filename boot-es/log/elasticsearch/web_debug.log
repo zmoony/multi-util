@@ -1,0 +1,32 @@
+2022-09-07 17:45:39.349 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:45:40.785 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:46:05.098 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:46:06.451 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:46:37.539 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:46:39.017 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:47:18.803 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:47:19.940 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:47:42.069 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:47:43.372 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:50:24.773 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:50:26.043 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:50:46.355 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:50:47.793 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:52:48.036 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:52:49.264 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:53:21.242 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:53:22.604 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:54:48.115 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:54:49.319 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:55:28.776 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:55:29.920 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 17:57:34.065 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 17:57:35.224 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 18:02:13.811 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 18:02:15.044 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 18:04:10.225 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 18:04:11.432 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 18:05:24.890 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 18:05:26.151 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]
+2022-09-07 18:06:26.379 [main] DEBUG com.boot.es.test.AllSearchTest - Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-09-07 18:06:27.531 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]

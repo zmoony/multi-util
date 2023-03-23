@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestHistoryConfig">
+    <option name="historyList">
+      <list>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="400" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="update" />
+          <option name="methodType" value="PUT" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_wxgdf&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_63fsj&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_jd4qv&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_wtifv&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:53:01&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_qjyye&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="update" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="PUT" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 3&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;}&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:&quot;主键不能为空&quot;}" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_zpp7d&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_rbwts&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_3dpqw&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_97u6c&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:52:47&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_awanx&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 3&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;}&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;phone&quot;:null,&quot;email&quot;:null,&quot;birth&quot;:null,&quot;age&quot;:null,&quot;score&quot;:null,&quot;classInfo&quot;:null}" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_r0it5&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_tlwv1&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_2goyg&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2wpkk&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:51:49&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_7lfz4&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 2&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {}&#13;&#10;" />
+          <option name="response" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;phone&quot;:null,&quot;email&quot;:null,&quot;birth&quot;:null,&quot;age&quot;:null,&quot;score&quot;:null,&quot;classInfo&quot;:null}" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="400" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_r0it5&quot;,&#10;  &quot;name&quot;: &quot;name_tlwv1&quot;,&#10;  &quot;phone&quot;: &quot;phone_2goyg&quot;,&#10;  &quot;email&quot;: &quot;email_2wpkk&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:51:49&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_7lfz4&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_r0it5&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_tlwv1&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_2goyg&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_2wpkk&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:51:49&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_7lfz4&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_r0it5&quot;,&#10;  &quot;name&quot;: &quot;name_tlwv1&quot;,&#10;  &quot;phone&quot;: &quot;phone_2goyg&quot;,&#10;  &quot;email&quot;: &quot;email_2wpkk&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:51:49&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_7lfz4&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="response" value="{&quot;timestamp&quot;:&quot;2023-02-21T07:51:55.774+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;path&quot;:&quot;/students&quot;}" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+        <ResponseHistory>
+          <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+          <option name="code" value="200" />
+          <option name="enableEnv" value="dev" />
+          <option name="enableProject" value="test" />
+          <option name="method" value="create" />
+          <option name="methodType" value="POST" />
+          <option name="paramGroup">
+            <ParamGroupCollection>
+              <option name="bodyKeyValueListJson" value="{&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}" />
+              <option name="className" value="com.example.text.demoOnLine.参数校验.Test2Controller" />
+              <option name="jsonDocument" value="{&#10;  &quot;id&quot;: &quot;No comment,Value =id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;No comment,Value =name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;No comment,Value =phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;No comment,Value =email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;No comment,Value =2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: &quot;No comment,Value =1&quot;,&#10;  &quot;score&quot;: &quot;No comment,Value =1.0&quot;,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;No comment,Value =teacher_isim2&quot;,&#10;    &quot;classroom&quot;: &quot;No comment,Value =1&quot;,&#10;    &quot;grade&quot;: &quot;No comment,Value =1&quot;&#10;  }&#10;}" />
+              <option name="method" value="create" />
+              <option name="methodDescription" value="New Request" />
+              <option name="methodType" value="POST" />
+              <option name="multipartKeyValueListJson" value="[]" />
+              <option name="originUrl" value="/students" />
+              <option name="pathParamsKeyValueListJson" value="[]" />
+              <option name="returnDocument" value="{&#10;&#9;&quot;id&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;name&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;phone&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;email&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;birth&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&quot;age&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;score&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&quot;classInfo&quot;:{&#10;&#9;&#9;&quot;teacher&quot;:&quot;No comment,Type =String&quot;,&#10;&#9;&#9;&quot;classroom&quot;:&quot;No comment,Type =Number&quot;,&#10;&#9;&#9;&quot;grade&quot;:&quot;No comment,Type =Number&quot;&#10;&#9;}&#10;}" />
+              <option name="url" value="/students" />
+              <option name="urlEncodedKeyValueListJson" value="[]" />
+              <option name="urlParamsKeyValueListJson" value="[]" />
+            </ParamGroupCollection>
+          </option>
+          <option name="requestInfo" value="Request Url: http://localhost:9090/students&#13;&#10;Request Headers: &#13;&#10;    Accept: application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#13;&#10;    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36 Hutool&#13;&#10;    Accept-Encoding: gzip, deflate&#13;&#10;    Accept-Language: zh-CN,zh;q=0.8&#13;&#10;    Content-Length: 249&#13;&#10;    Content-Type: application/json;charset=UTF-8&#13;&#10;Request Body: &#13;&#10;    {&#10;  &quot;id&quot;: &quot;id_d31vo&quot;,&#10;  &quot;name&quot;: &quot;name_qdfu5&quot;,&#10;  &quot;phone&quot;: &quot;phone_imcv6&quot;,&#10;  &quot;email&quot;: &quot;email_u8qmf&quot;,&#10;  &quot;birth&quot;: &quot;2023-02-21 15:44:44&quot;,&#10;  &quot;age&quot;: 1,&#10;  &quot;score&quot;: 1.0,&#10;  &quot;classInfo&quot;: {&#10;    &quot;teacher&quot;: &quot;teacher_isim2&quot;,&#10;    &quot;classroom&quot;: 1,&#10;    &quot;grade&quot;: 1&#10;  }&#10;}&#13;&#10;" />
+          <option name="url" value="/students" />
+        </ResponseHistory>
+      </list>
+    </option>
+  </component>
+</project>

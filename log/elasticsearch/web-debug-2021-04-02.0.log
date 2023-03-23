@@ -1,0 +1,7 @@
+2021-04-02 13:54:15.086 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-04-02 14:46:31.223 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-04-02 14:46:32.645 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9210, http://172.17.112.121:9210, http://172.17.112.122:9210, http://172.17.112.123:9210]
+2021-04-02 14:47:31.679 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-04-02 14:47:33.206 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9210, http://172.17.112.121:9210, http://172.17.112.122:9210, http://172.17.112.123:9210]
+2021-04-02 14:52:02.448 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2021-04-02 14:52:03.930 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9210, http://172.17.112.121:9210, http://172.17.112.122:9210, http://172.17.112.123:9210]

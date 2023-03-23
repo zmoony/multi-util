@@ -1,0 +1,16 @@
+POST {{ip}}/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+
+# name接口定义的参数名，filename 文件名（我们可以自己取名字）
+--WebAppBoundary
+Content-Disposition: form-data; name="file";filename="1679445521171.jpg"
+Content-Type: multipart/form-data
+
+#文件地址
+< C:\Users\yuez\Desktop\1679445521171.jpg
+--WebAppBoundary--
+#返回值
+<> 2023-03-22T140953.200.txt
+
+###
