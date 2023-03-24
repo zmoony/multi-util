@@ -1,2 +1,0 @@
-2022-09-08 11:40:12.049 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
-2022-09-08 11:40:13.454 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.17.112.120:9312, http://172.17.112.121:9312, http://172.17.112.122:9312, http://172.17.112.123:9312]

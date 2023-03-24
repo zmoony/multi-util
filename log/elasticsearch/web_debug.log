@@ -1,6 +1,0 @@
-2023-03-23 13:42:48.484 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
-2023-03-23 13:42:49.816 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.18.12.21:9312]
-2023-03-23 14:47:52.081 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
-2023-03-23 14:47:53.440 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.18.12.21:9312]
-2023-03-23 14:50:27.743 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
-2023-03-23 14:50:28.967 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.18.12.21:9312]
