@@ -10,8 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Log4j2
 @SpringBootApplication
 public class EsApplication implements CommandLineRunner {
-    @Autowired
-    private BulkTest2 bulkTest2;
 
     public static void main(String[] args) {
         SpringApplication.run(EsApplication.class, args);

@@ -25,6 +25,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public R error(Exception e){
         log.error(ExceptionUtil.getMessage(e));
+        log.info("Exception===全局处理");
         return R.error();
     }
     /**-------- 指定异常处理方法 --------**/
@@ -32,6 +33,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public R error(NullPointerException e){
         log.error(ExceptionUtil.getMessage(e));
+        log.info("NullPointerException===全局处理");
         return R.setResult(ResultCodeEnum.NULL_POINT);
     }
 
@@ -39,6 +41,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public R error(HttpClientErrorException e){
         log.error(ExceptionUtil.getMessage(e));
+        log.info("NullPointerException===全局处理");
         return R.setResult(ResultCodeEnum.HTTP_CLIENT_ERROR);
     }
     /**-------- 自定义定异常处理方法 --------**/
@@ -46,6 +49,7 @@ public class GlobalExceptionHandler {
     @ResponseBody
     public R error(GlobalException e){
         log.error(ExceptionUtil.getMessage(e));
+        log.info("GlobalException===全局处理");
         return R.error().message(e.getMessage()).code(e.getCode());
     }
 
