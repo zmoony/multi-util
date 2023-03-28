@@ -1,4 +1,4 @@
-package com.example.text.queue;
+package com.example.text.java;
 
 import com.example.text.restdoc.Result2;
 import org.springframework.util.LinkedMultiValueMap;
