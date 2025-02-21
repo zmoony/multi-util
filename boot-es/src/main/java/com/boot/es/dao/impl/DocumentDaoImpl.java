@@ -88,7 +88,7 @@ public class DocumentDaoImpl implements DocumentDao {
         bulkRequest.timeout(TIME_OUT);
         for (Map.Entry<String, String> entry : map.entrySet()) {
             bulkRequest.add(new IndexRequest(index, type, entry.getKey())
-                    .source(entry.getValue(), XContentType.JSON));
+                    .source(entry.getValue(), XContentType.JSON));//或者里面可以直接放map
         }
         return restHighLevelClient.bulk(bulkRequest, RequestOptions.DEFAULT);
     }

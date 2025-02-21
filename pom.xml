@@ -20,6 +20,7 @@
         <module>boot-redis</module>
         <module>common-util</module>
         <module>boot-shiro</module>
+        <module>websocket</module>
     </modules>
 
 </project>

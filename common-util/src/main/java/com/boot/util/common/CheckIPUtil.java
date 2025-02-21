@@ -25,14 +25,14 @@ public class CheckIPUtil {
      * 检测网络是否可用  采用ping方式
      * @param host
      * @param count
-     * @return 
+     * @return
      */
     public static boolean isHostReachablebyping(String host, int count) {
-        
-        Runtime runtime = Runtime.getRuntime();  
+
+        Runtime runtime = Runtime.getRuntime();
         StringBuilder sb = new StringBuilder();
         try {
-            Process process = runtime.exec("ping " +host +" -n "+count);  
+            Process process = runtime.exec("ping " +host +" -n "+count);
             String line;
             BufferedReader	bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             while ((line = bufferedReader.readLine()) != null) {
@@ -51,13 +51,11 @@ public class CheckIPUtil {
      * 检测网络是否可用 采用InetAddress.getByName(host).isReachable(timeOut)  单位毫秒
      * @param host
      * @param timeOut
-     * @return 
+     * @return
      */
     public static boolean isHostReachable(String host, Integer timeOut) {
         try {
             return InetAddress.getByName(host).isReachable(timeOut);
-        } catch (UnknownHostException e) {
-            log.error("网络检测异常"+e.getMessage());
         } catch (IOException e) {
             log.error("网络检测异常"+e.getMessage());
         }
@@ -67,15 +65,15 @@ public class CheckIPUtil {
      * 展示结果
      * @param host
      * @param count
-     * @return 
+     * @return
      */
     public static String displayPingResult(String host, int count) {
         String result=null;
         String line = null;
-        Runtime runtime = Runtime.getRuntime();  
+        Runtime runtime = Runtime.getRuntime();
         StringBuilder sb = new StringBuilder();
         try {
-            Process process = runtime.exec("ping " +host +" -n "+count);  
+            Process process = runtime.exec("ping " +host +" -n "+count);
 		BufferedReader	bufferedReader = new BufferedReader(new InputStreamReader(process.getInputStream()));
                 while ((line = bufferedReader.readLine()) != null) {
                         sb.append(line).append("\n");
@@ -89,7 +87,7 @@ public class CheckIPUtil {
     }
     /**
      * 获取本机IP列表  [127.0.0.1, 10.1.25.174, 172.17.112.2]
-     * @return 
+     * @return
      */
     public static Map<String,Integer> getLocalIPMap() {
         Map<String,Integer> map= new HashMap<>();
@@ -106,6 +104,10 @@ public class CheckIPUtil {
                     inetAddress = inetAddresses.nextElement();
                     // IPV4
                     if (inetAddress != null && inetAddress instanceof Inet4Address) {
+                        if (inetAddress.isSiteLocalAddress()) {
+                            // 内网IP
+                            continue;
+                        }
                         ip = inetAddress.getHostAddress();
                         map.put(ip, Integer.SIZE);
                     }
@@ -116,7 +118,7 @@ public class CheckIPUtil {
         }
         return map;
     }
-    
 
-    
+
+
 }

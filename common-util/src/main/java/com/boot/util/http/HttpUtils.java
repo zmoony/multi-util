@@ -115,7 +115,7 @@ public class HttpUtils {
                 .build();
 
         //官方同时建议我们在后台起一个定时清理无效连接的线程
-        Timer timer = new Timer();
+/*        Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
@@ -123,7 +123,7 @@ public class HttpUtils {
                 MyPoolingHttpClientConnectionManager.closeExpiredConnections();
                 MyPoolingHttpClientConnectionManager.closeIdleConnections(5, TimeUnit.SECONDS);
             }
-        }, 0, 5 * 1000);
+        }, 0, 5 * 1000);*/
 
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
@@ -139,8 +139,7 @@ public class HttpUtils {
 
     //通用请求
     public static String request(HttpRequestBase request, Class<?> clazz, int succStatus) {
-        try {
-            CloseableHttpResponse response = MyCloseableHttpClient.execute(request);
+        try (CloseableHttpResponse response = MyCloseableHttpClient.execute(request)){
             HttpEntity entity = response.getEntity();
             ContentType contentType = ContentType.getOrDefault(entity);
             Charset charset = contentType.getCharset();

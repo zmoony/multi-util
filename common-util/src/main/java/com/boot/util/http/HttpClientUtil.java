@@ -55,6 +55,8 @@ public class HttpClientUtil {
     private static RequestConfig requestConfig;
     private static final int MAX_TIMEOUT = 7000;
 
+    private static final String ENCODING = "UTF-8";
+
 //    3.1 after
 //    public void init() {
 //        connectionManager = new MultiThreadedHttpConnectionManager();
@@ -124,6 +126,44 @@ public class HttpClientUtil {
         }
 
         return result;
+    }
+
+    /**
+     * 基于HttpClient 4.3的通用POST方法
+     *
+     * @param url       提交的URL
+     * @param paramsMap 提交<参数，值>Map
+     * @return 提交响应
+     */
+    public static String post(String url, Map<String, String> paramsMap) {
+        CloseableHttpClient client = HttpClients.createDefault();
+        String responseText = "";
+        CloseableHttpResponse response = null;
+        try {
+            HttpPost method = new HttpPost(url);
+            if (paramsMap != null) {
+                List<NameValuePair> paramList = new ArrayList<>();
+                for (Map.Entry<String, String> param : paramsMap.entrySet()) {
+                    NameValuePair pair = new BasicNameValuePair(param.getKey(), param.getValue());
+                    paramList.add(pair);
+                }
+                method.setEntity(new UrlEncodedFormEntity(paramList, ENCODING));
+            }
+            response = client.execute(method);
+            HttpEntity entity = response.getEntity();
+            if (entity != null) {
+                responseText = EntityUtils.toString(entity, ENCODING);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                response.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return responseText;
     }
 
     /**

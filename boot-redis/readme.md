@@ -1,9 +1,9 @@
-#redis快速入门
-##一 基本规范
-###1. key命名规范
+# redis快速入门
+## 一 基本规范
+### 1. key命名规范
 为防止冲突，一般为<code>业务名:表名:id</code>
 <br><font color='red'>注意:</font>不得包含空格，换行，单双引号以及其他转义字符
-###2. value设计
+### 2. value设计
 > 1. **拒绝bigkey**
 > <br>String类型控制在10kb，hash/list/set/zset元素最好不要超过5000；如果出现bigkey不要使用del进行删除，使用hscan/sscan/zscan进行渐进式删除，同时注意过期机制的问题，会触发del操作，且不会记录进慢日志
 > 2. **选择合适的数据类型**
@@ -16,7 +16,8 @@
 > hmset user:1 name tom age 18 work 1
 > ~~~
 > 3. redis使用过期机制，防止内存溢出
-###3. 命令的注意事项
+
+### 3. 命令的注意事项
 1. 命名关注命令数量，建议使用hscan,sscan,zscan渐进式查询
 2. 线上禁止使用keys,flushall,flushdb,通过redis的rename进行禁用
 ###4. 客户端使用
@@ -43,7 +44,7 @@ try{
    * volatile-random：随机删除过期key,直至腾出空间
    * volatile-ttl：根据对象的ttl的属性，删除最近将要过期的数据，如果没有，回到noeviction 策略
    * noeviction：不会剔除任何数据，禁止写入，报OOM错误，只能进行读操作
-###4. 相关工具
+### 4. 相关工具
 1. 数据同步：redis-port
 2. bigkey搜索：redis大key搜索工具
 3. 热点key寻找：内部monitor,短时间使用redis-faina
@@ -139,7 +140,7 @@ public  void  delBigZset(String host,  int  port, String password, String bigZse
    jedis.del(bigZsetKey);
 }
 ~~~
-##二 简要介绍
+## 二 简要介绍
 * 支持持久化，多类型数据存储，支持数据备份，采用主从模式
 * 性能高，原子操作（所有操作都是原子性的，多个操作通过multi和exec包裹起来也支持事务）
 * 支持public/subscribe,通知，key过期

@@ -7,6 +7,7 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 /**
  * caffeine cache
@@ -18,6 +19,8 @@ public class CacheUtil<K,V> {
     private static CacheUtil cacheUtil = new CacheUtil();
     public CacheUtil(){
         cache = Caffeine.newBuilder()
+                .expireAfterWrite(10
+                        , TimeUnit.MINUTES)
                 .maximumSize(1000000L)
                 .build();
     }

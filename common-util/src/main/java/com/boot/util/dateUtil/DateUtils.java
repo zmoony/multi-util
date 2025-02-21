@@ -3,6 +3,8 @@ package com.boot.util.dateUtil;
 import lombok.extern.log4j.Log4j2;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 /**
@@ -318,5 +320,71 @@ public class DateUtils {
                 calendar.getActualMaximum(Calendar.DAY_OF_MONTH), 23, 59);
         return calendar.getTime();
     }
+
+    private final static DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    /**
+     * 获取当月的开始时间，结束时间
+     * @return
+     */
+    public static List<String> getCurrentMonth() {
+        LocalDateTime now = LocalDateTime.now();
+        String endTime = now.format(dateTimeFormatter);
+        String startTime = now.withDayOfMonth(1).withHour(0).withMinute(0).withSecond(0).format(dateTimeFormatter);
+        return Arrays.asList(startTime, endTime);
+    }
+
+    /**
+     * 获取本年度
+     * @return
+     */
+    public static List<String> getCurrentYear() {
+        LocalDateTime now = LocalDateTime.now();
+        String endTime = now.format(dateTimeFormatter);
+        String startTime = now.withDayOfYear(1).withHour(0).withMinute(0).withSecond(0).format(dateTimeFormatter);
+        return Arrays.asList(startTime, endTime);
+    }
+
+    /**
+     * 获取最近30天
+     * @return
+     */
+    public static List<String> getLastThirtyDays() {
+        LocalDateTime now = LocalDateTime.now();
+        String endTime = now.format(dateTimeFormatter);
+        String startTime = now.minusDays(30).format(dateTimeFormatter);
+        return Arrays.asList(startTime, endTime);
+    }
+
+    /**
+     * 获取两个时间之间的月份
+     * @param timeStart
+     * @param timeEnd
+     * @return
+     */
+    public static List<String> getMonth(String timeStart,String timeEnd){
+        LocalDateTime start = LocalDateTime.parse(timeStart, dateTimeFormatter);
+        LocalDateTime end = LocalDateTime.parse(timeEnd, dateTimeFormatter);
+        List<String> list = new ArrayList<>();
+        while (start.isBefore(end)) {
+            list.add(String.format("%02d",start.getMonthValue()));
+            start = start.plusMonths(1);
+        }
+        return list;
+    }
+
+    /**
+     * 获取指定时间的上个月的范围
+     * @param timeStart
+     * @return
+     */
+    public static List<String> getLastMonth(String timeStart){
+        LocalDateTime start = LocalDateTime.parse(timeStart, dateTimeFormatter);
+        List<String> list = new ArrayList<>();
+        LocalDateTime firstDayOfLastMonth = start.minusMonths(1).withDayOfMonth(1).withHour(0).withMinute(0).withSecond(0);
+        LocalDateTime lastDayOfLastMonth = start.withDayOfMonth(1).withHour(0).withMinute(0).withSecond(0).minusDays(1);
+        return Arrays.asList(firstDayOfLastMonth.format(dateTimeFormatter), lastDayOfLastMonth.format(dateTimeFormatter));
+    }
+
+
 
 }

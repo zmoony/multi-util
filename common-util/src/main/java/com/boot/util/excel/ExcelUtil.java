@@ -1,8 +1,6 @@
-package com.boot.util.common;
+package com.boot.util.excel;
 
 import org.apache.commons.lang3.StringUtils;
-import org.apache.poi.hssf.usermodel.HSSFCellStyle;
-import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
@@ -75,7 +73,7 @@ public class ExcelUtil {
                     for (int j = 0; j < maxColnum; j++) {
                         cellData = (String) ExcelUtil.getCellFormatValue(firstRow.getCell(j));
                         /*Cell cell = firstRow.getCell(j,Row.CREATE_NULL_AS_BLANK);
-                        cell.setCellType(Cell.CELL_TYPE_STRING);
+                        cell.setCellType(CellType.STRING);
                         cellData = cell.getStringCellValue();*/
                         if (i == 0) {
                             columns[j] = cellData;
@@ -118,8 +116,8 @@ public class ExcelUtil {
             if (firstRow != null){
                 String cellData = null;
                 for (int j = 0; j < maxColumns; j++) {
-                    Cell cell = firstRow.getCell(j,Row.CREATE_NULL_AS_BLANK);
-                    cell.setCellType(Cell.CELL_TYPE_STRING);
+                    Cell cell = firstRow.getCell(j,Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                    cell.setCellType(CellType.STRING);
                     cellData = cell.getStringCellValue();
                     if(i == 0){
                         columns[j] = cellData;
@@ -178,22 +176,22 @@ public class ExcelUtil {
         font.setFontHeightInPoints((short) 11);//设置字体大小
         style.setFont(font);//选择需要用到的字体格式
 
-        style.setFillForegroundColor(HSSFColor.YELLOW.index);// 设置背景色
-        style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
-        style.setAlignment(HSSFCellStyle.ALIGN_CENTER); // 居中
-        style.setBorderBottom(HSSFCellStyle.BORDER_THIN); //下边框
-        style.setBorderRight(HSSFCellStyle.BORDER_THIN);//右边框
+        style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.YELLOW.getIndex());// 设置背景色
+        style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        style.setAlignment(HorizontalAlignment.CENTER); // 居中
+        style.setBorderBottom(BorderStyle.THIN); //下边框
+        style.setBorderRight(BorderStyle.THIN);//右边框
 
         style2.setFont(font);//选择需要用到的字体格式
 
-        style2.setFillForegroundColor(HSSFColor.WHITE.index);// 设置背景色
-        style2.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
-        style2.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER); //垂直居中
-        style2.setAlignment(HSSFCellStyle.ALIGN_CENTER); // 水平向下居中
-        style2.setBorderBottom(HSSFCellStyle.BORDER_THIN); //下边框
-        style2.setBorderRight(HSSFCellStyle.BORDER_THIN);//右边框
-        style2.setBorderLeft(HSSFCellStyle.BORDER_THIN);//左边框
-        style2.setBorderTop(HSSFCellStyle.BORDER_THIN);//上边框
+        style2.setFillForegroundColor(HSSFColor.HSSFColorPredefined.WHITE.getIndex());// 设置背景色
+        style2.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+        style2.setVerticalAlignment(VerticalAlignment.CENTER); //垂直居中
+        style2.setAlignment(HorizontalAlignment.CENTER); // 水平向下居中
+        style2.setBorderBottom(BorderStyle.THIN); //下边框
+        style2.setBorderRight(BorderStyle.THIN);//右边框
+        style2.setBorderLeft(BorderStyle.THIN);//左边框
+        style2.setBorderTop(BorderStyle.THIN);//上边框
 
         Row headerRow = sh.createRow(0); //表头
 
@@ -394,11 +392,11 @@ public class ExcelUtil {
         if (cell != null) {
             //判断cell类型
             switch (cell.getCellType()) {
-                case Cell.CELL_TYPE_NUMERIC: {
+                case NUMERIC: {
                     cellValue = String.valueOf(cell.getNumericCellValue());
                     break;
                 }
-                case Cell.CELL_TYPE_FORMULA: {
+                case FORMULA: {
                     if (DateUtil.isCellDateFormatted(cell)) {
                         cellValue = cell.getDateCellValue();////转换为日期格式YYYY-mm-dd
                     } else {
@@ -406,7 +404,7 @@ public class ExcelUtil {
                     }
                     break;
                 }
-                case Cell.CELL_TYPE_STRING: {
+                case STRING: {
                     cellValue = cell.getRichStringCellValue().getString();
                     break;
                 }
@@ -449,18 +447,18 @@ class ExcelUtilSelf {
         setWidth(sheet);
 
         CellStyle cellStyle = workbook.createCellStyle();
-        cellStyle.setVerticalAlignment(CellStyle.VERTICAL_CENTER);//垂直
-        cellStyle.setAlignment(CellStyle.ALIGN_CENTER);//水平
+        cellStyle.setVerticalAlignment(VerticalAlignment.CENTER);//垂直
+        cellStyle.setAlignment(HorizontalAlignment.CENTER);//水平
         cellStyle.setWrapText(true);//单元格显示不下时自动换行
         Font font = workbook.createFont();
         font.setFontName("Arial Unicode MS");
         font.setFontHeightInPoints((short) 11);//设置字体大小
-        font.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);//粗体显示
+        font.setBold(true);//粗体显示
         cellStyle.setFont(font);//选择需要用到的字体格式
 
         CellStyle cellStyleIn = workbook.createCellStyle();
-        cellStyleIn.setVerticalAlignment(CellStyle.VERTICAL_CENTER);//垂直
-        cellStyleIn.setAlignment(CellStyle.ALIGN_CENTER);//水平
+        cellStyleIn.setVerticalAlignment(VerticalAlignment.CENTER);//垂直
+        cellStyleIn.setAlignment(HorizontalAlignment.CENTER);//水平
         cellStyleIn.setWrapText(true);//单元格显示不下时自动换行
         Font font2 = workbook.createFont();
         font2.setFontName("Arial Unicode MS");
@@ -591,6 +589,11 @@ class ExcelUtilSelf {
         return passTime;
     }
 }
+
+/**
+ * 徐铁
+ *
+ */
 
 
 

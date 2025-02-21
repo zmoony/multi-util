@@ -1,0 +1,1 @@
+nohup /usr/java/jdk-17.0.10/bin/java -jar psmp_gateway.jar > nohup.out 2>&1 &

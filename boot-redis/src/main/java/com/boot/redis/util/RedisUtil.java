@@ -1,5 +1,8 @@
 package com.boot.redis.util;
 
+import com.google.common.base.Charsets;
+import com.google.common.hash.BloomFilter;
+import com.google.common.hash.Funnels;
 import lombok.extern.log4j.Log4j2;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -307,6 +310,19 @@ public class RedisUtil {
         return map;
     }
 
+    /**
+     * 布隆过滤器
+     * 它使用UTF-8编码方式将字符串转换成int值，并预计插入1,000,000个元素，且设计的误报率为0.01。
+     * 一般情况下，可以与DB进行双重判断（不存在就去查数据库）
+     */
+    static BloomFilter<String> bloomFilter = BloomFilter.create(Funnels.stringFunnel(Charsets.UTF_8), 1000000, 0.01);
+    public static void bloomFilter(){
+        bloomFilter.put("1");
+    }
+
+    public static boolean bloomFilterExist(String obj){
+        return bloomFilter.mightContain(obj);
+    }
 
 
 }
