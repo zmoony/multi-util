@@ -18,7 +18,7 @@ import com.alibaba.excel.write.builder.ExcelWriterBuilder;
 import com.alibaba.excel.write.style.column.LongestMatchColumnWidthStyleStrategy;
 import com.boot.util.common.CollectionUtils;
 import com.boot.util.common.StringUtils;
-import com.sun.deploy.net.URLEncoder;
+import java.net.URLEncoder;
 import lombok.extern.log4j.Log4j2;
 import org.joda.time.LocalDateTime;
 import org.joda.time.format.DateTimeFormat;

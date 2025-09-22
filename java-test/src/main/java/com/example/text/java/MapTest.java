@@ -3,7 +3,9 @@ package com.example.text.java;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Data;
 import lombok.extern.log4j.Log4j2;
+import org.apache.poi.util.StringUtil;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -55,6 +57,26 @@ public class MapTest {
             return null;
         }
     }
+
+
+    @org.testng.annotations.Test
+    public void mergeTest(){
+        Map<String,String> map = new HashMap<>();
+        map.put("name","lili");
+        map.put("age","18");
+        String name = map.merge("name", " aaa ", (v1,v2)->v1+v2);
+    }
+    @org.testng.annotations.Test
+    public void sortTest(){
+        Map<String,Integer> map = new HashMap<>();
+        map.put("a",1);
+        map.put("c",3);
+        map.put("b",2);
+//        map.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).forEach(System.out::println);
+        map.entrySet().stream().sorted(Comparator.comparing(Map.Entry::getValue,Comparator.reverseOrder())).forEach(System.out::println);
+    }
+
+
 }
 
 @Data

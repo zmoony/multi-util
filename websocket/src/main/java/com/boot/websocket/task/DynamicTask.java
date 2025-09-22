@@ -21,8 +21,8 @@ public class DynamicTask implements SchedulingConfigurer {
 //        taskScheduler.afterPropertiesSet();
 //        taskRegistrar.setTaskScheduler(taskScheduler );
 
-        taskRegistrar.addCronTask(() -> {
-            System.out.println("动态注册调度任务...");
-        }, "*/2 * * * * *");
+//        taskRegistrar.addCronTask(() -> {
+//            System.out.println("动态注册调度任务...");
+//        }, "*/2 * * * * *");
     }
 }

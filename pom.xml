@@ -15,12 +15,19 @@
     </properties>
 
     <modules>
+        <module>boot-dubbo</module>
         <module>boot-es</module>
         <module>boot-kafka</module>
+        <module>boot-nacos</module>
         <module>boot-redis</module>
+        <module>boot-shiro</module>
+        <module>boot-zookeeper</module>
+        <module>cloud-nacos</module>
+        <module>cloud-oauth2-auth</module>
         <module>common-util</module>
         <module>boot-shiro</module>
         <module>websocket</module>
+        <module>dify-api</module>
     </modules>
 
 </project>

@@ -89,6 +89,12 @@
         </dependency>
         <!--结束添加本地elasticsearch依赖包-->
 
+        <!-- Kafka -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.4.0</version>
+        </dependency>
 
     </dependencies>
 

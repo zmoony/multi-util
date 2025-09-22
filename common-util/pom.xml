@@ -18,6 +18,7 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -272,7 +273,7 @@
         <dependency>
             <groupId>com.github.mwiede</groupId>
             <artifactId>jsch</artifactId>
-            <version>0.2.20</version>
+            <version>0.2.21</version>
         </dependency>
 
         <!--linux ssh备用-->
@@ -306,7 +307,60 @@
             <version>2.3.32</version>
         </dependency>
 
+        <!-- JavaFX Core -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.2</version> <!-- 使用你需要的版本 -->
+        </dependency>
+
+        <!-- JavaFX Graphics -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>17.0.2</version> <!-- 使用你需要的版本 -->
+        </dependency>
+
+        <!-- JavaFX Base -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>17.0.2</version> <!-- 使用你需要的版本 -->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!-- mina -->
+        <dependency>
+            <groupId>org.apache.mina</groupId>
+            <artifactId>mina-core</artifactId>
+            <version>2.1.6</version>
+        </dependency>
+
     </dependencies>
+
+    <!-- 在这里添加仓库配置 -->
+    <repositories>
+        <!-- Eclipse Paho 官方仓库，用于获取 mqtt-client 依赖 -->
+        <repository>
+            <id>eclipse-releases</id>
+            <url>https://repo.eclipse.org/content/repositories/paho-releases/</url>
+            <!-- 启用发布版本的下载 -->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <!-- 禁用快照版本（可选，根据需求调整） -->
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <!--被依赖的包不能使用，否则打包失败：被引入模块的这个插件的 repackage 目标会处理该模块的 jar 包，导致依赖它的模块无法使用它
     <build>
@@ -325,5 +379,27 @@
             </plugin>
         </plugins>
     </build>-->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>com.boot.util.exe.TrayNotificationApp</mainClass> <!-- 替换为你的主类 -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

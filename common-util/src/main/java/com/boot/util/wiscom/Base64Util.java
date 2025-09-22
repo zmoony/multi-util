@@ -1,3 +1,4 @@
+/*
 package com.boot.util.wiscom;
 
 import sun.misc.BASE64Decoder;
@@ -59,4 +60,4 @@ public class Base64Util {
 		Matcher m = p.matcher(str);
 		return m.replaceAll("");
 	}
-}
+}*/

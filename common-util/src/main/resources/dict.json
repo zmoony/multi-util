@@ -1,0 +1,18 @@
+{
+  "sexMap": [
+    {"myCode": 999, "thirdCode": "0", "desc": "未知的性别"},
+    {"myCode": 0,   "thirdCode": "1", "desc": "男"},
+    {"myCode": 1,   "thirdCode": "2", "desc": "女"},
+    {"myCode": -1,  "thirdCode": "0", "desc": "未知的性别"},
+    {"myCode": 9,   "thirdCode": "9", "desc": "未说明的性别"}
+  ],
+  "plateColorMap": [
+    {"myCode": "999", "thirdCode": "99", "desc": "其他"},
+    {"myCode": "1",   "thirdCode": "5",  "desc": "蓝"},
+    {"myCode": "2",   "thirdCode": "1",  "desc": "黑"},
+    {"myCode": "3",   "thirdCode": "6",  "desc": "黄"},
+    {"myCode": "4",   "thirdCode": "2",  "desc": "白"},
+    {"myCode": "5",   "thirdCode": "99", "desc": "其他"},
+    {"myCode": "6",   "thirdCode": "9",  "desc": "绿"}
+  ]
+}

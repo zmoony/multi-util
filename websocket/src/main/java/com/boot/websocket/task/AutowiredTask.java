@@ -21,13 +21,13 @@ public class AutowiredTask {
 
     @PostConstruct
     public void start(){
-        this.taskScheduler.schedule(()->{
+       /* this.taskScheduler.schedule(()->{
             System.out.println("AutowiredTask ...");
         },new CronTrigger("0/2 * * * * ?"));
 
         this.taskScheduler.scheduleAtFixedRate(()->{
             System.out.println("固定周期指定任务") ;
-        }, Duration.ofSeconds(2));
+        }, Duration.ofSeconds(2));*/
     }
 
 }

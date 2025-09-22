@@ -12,6 +12,8 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -168,4 +170,13 @@ public class NumberTest {
     }
 
 
+    /**
+     * 字符串为空也会通过
+     */
+    private static Pattern pattern = Pattern.compile("[0-9]+");
+    @Test
+    public void isNumber(){
+        Matcher matcher = pattern.matcher("000");
+        System.out.println(matcher.matches());
+    }
 }

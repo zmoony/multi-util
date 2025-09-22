@@ -7,11 +7,10 @@ import org.testng.annotations.Test;
 import java.sql.Timestamp;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 时间测试类
@@ -135,5 +134,74 @@ public class TimeTest {
 
     }
 
+    @Test
+    public  void breakpointTestLog() {
+        ThreadLocalRandom random = ThreadLocalRandom.current();
+        int count = 0;
+        for (int i = 0; i < 5; i++) {
+            if (isInterested(random.nextInt(10))) {
+                count++;
+            }
+        }
+        System.out.printf("Found %d interested values%n", count);
+    }
+
+    private static boolean isInterested(int i) {
+        return i % 2 == 0;
+    }
+
+
+    @Test
+    public  void breakpointTestStream() {
+        Object[] res = Stream.of(1,2,3,4,5,6,7,8).filter(i -> i%2 == 0).filter(i -> i>3).toArray();
+        System.out.println(Arrays.toString(res));
+    }
+
+
+    @Test
+    public  void breakpointTestExcetion() {
+        try {
+            for (int i = 0; i < 20; i++) {
+                if (i == 10) {
+                    throw new RuntimeException("test");
+                }
+            }
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void zoneTimeTest(){
+        LocalDateTime utcDateTime = LocalDateTime.of(2025, 02, 19, 05, 47, 28);
+        ZonedDateTime utcZonedDateTime = utcDateTime.atZone(ZoneId.of("UTC"));
+        ZonedDateTime localZonedDateTime = utcZonedDateTime.withZoneSameInstant(ZoneId.systemDefault());
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+        String pass_time = localZonedDateTime.format(formatter);
+        System.out.println(pass_time);
+    }
+
+    @Test
+    public void zoneTimeLocalTest(){
+        LocalDateTime utcDateTime = LocalDateTime.of(2025, 02, 19, 05, 47, 28);
+        ZonedDateTime utcZonedDateTime = utcDateTime.atZone(ZoneId.of("UTC"));
+        ZonedDateTime localZonedDateTime = utcZonedDateTime.withZoneSameLocal(ZoneId.systemDefault());
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+        String pass_time = localZonedDateTime.format(formatter);
+        System.out.println(pass_time);
+    }
+
+    @Test
+    public void formatTest(){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd H:mm:ss");
+        DateTimeFormatter formatterNormal = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        LocalDateTime localDateTime = LocalDateTime.parse("2022-09-22 15:04:00", formatter);
+        LocalDateTime localDateTimeNormal = LocalDateTime.parse("2022-09-22 15:04:00", formatterNormal);
+        System.out.println(localDateTime);
+        System.out.println(localDateTimeNormal);
+        LocalDateTime now = LocalDateTime.now().plusHours(8);
+        System.out.println(now.format(formatter));
+        System.out.println(now.format(formatterNormal));
+    }
 
 }

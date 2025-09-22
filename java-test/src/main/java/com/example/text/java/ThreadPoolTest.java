@@ -148,6 +148,12 @@ public class ThreadPoolTest {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
 //        ExecutorService pool = Executors.newFixedThreadPool(5);
+
+        /*
+        * 如果策略使用 new ThreadPoolExecutor.DiscardPolicy()，当队列满的时候，会直接丢弃任务，不会抛出异常，
+        * 那么有可能抛弃的是正在阻塞等待结果的，就如程序中的join（），join（）方法会阻塞，直到任务完成，
+        * 程序就会崩溃
+        */
         ThreadPoolExecutor pool = new ThreadPoolExecutor(5, 5, 0L,
                 TimeUnit.MILLISECONDS,
                 new LinkedBlockingDeque<>(1024),
@@ -185,6 +191,25 @@ public class ThreadPoolTest {
         System.out.println("总耗时：" + stopWatch.getTotalTimeMillis());
         System.out.println("任务数：" + stopWatch.getTaskCount());
         System.out.println("所有任务详情：" + stopWatch.getTaskInfo().toString());
+    }
+
+    public static class MyThread extends Thread {
+        @Override
+        public void run() {
+            System.out.println(Thread.currentThread().getName());
+            System.out.println("This is child thread");
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        MyThread thread = new MyThread();
+//        thread.start();
+        thread.run();//运行在主内存中
+        while (true){
+            System.out.println(111+Thread.currentThread().getName());
+            Thread.sleep(1000);
+        }
+
     }
 
 

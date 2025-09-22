@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>普通WebSocket测试</title>
+</head>
+<body>
+<h2>普通WebSocket测试</h2>
+<div>
+    <input type="text" id="userId" placeholder="输入用户ID" value="user1">
+    <button onclick="connect()">连接</button>
+    <button onclick="disconnect()">断开</button>
+</div>
+<div>
+    <input type="text" id="message" placeholder="输入消息">
+    <button onclick="sendMessage()">发送</button>
+</div>
+<div>
+    <input type="text" id="targetUser" placeholder="目标用户ID">
+    <button onclick="sendPrivateMessage()">发送私信</button>
+</div>
+<div id="messages"></div>
+
+<script>
+    var websocket = null;
+
+    function connect() {
+        var userId = document.getElementById('userId').value;
+        if (!userId) {
+            alert('请输入用户ID');
+            return;
+        }
+
+        // 连接普通WebSocket
+        websocket = new WebSocket('ws://localhost:8080/ws/simple/' + userId);
+
+        websocket.onopen = function(event) {
+            showMessage('连接成功');
+        };
+
+        websocket.onmessage = function(event) {
+            showMessage('收到消息: ' + event.data);
+        };
+
+        websocket.onclose = function(event) {
+            showMessage('连接已关闭');
+        };
+
+        websocket.onerror = function(event) {
+            showMessage('连接出错');
+        };
+    }
+
+    function disconnect() {
+        if (websocket) {
+            websocket.close();
+        }
+    }
+
+    function sendMessage() {
+        var message = document.getElementById('message').value;
+        if (websocket && websocket.readyState === WebSocket.OPEN) {
+            websocket.send(message);
+            document.getElementById('message').value = '';
+        } else {
+            alert('连接未建立');
+        }
+    }
+
+    function sendPrivateMessage() {
+        var targetUser = document.getElementById('targetUser').value;
+        var message = document.getElementById('message').value;
+        if (websocket && websocket.readyState === WebSocket.OPEN) {
+            // 发送JSON格式的私信
+            var privateMsg = JSON.stringify({
+                "to": targetUser,
+                "msg": message
+            });
+            websocket.send(privateMsg);
+            document.getElementById('message').value = '';
+        } else {
+            alert('连接未建立');
+        }
+    }
+
+    function showMessage(message) {
+        var messages = document.getElementById('messages');
+        var div = document.createElement('div');
+        div.textContent = message;
+        messages.appendChild(div);
+    }
+</script>
+</body>
+</html>

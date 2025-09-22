@@ -131,4 +131,12 @@ public class HeadMapTest {
     }
 
 
+    @Test
+    private void test13(){
+        Map<String,Object> map = new HashMap<>();
+        map.put("1","1");
+        System.out.println(map.getOrDefault("2",2));
+    }
+
+
 }

@@ -16,6 +16,8 @@ public class DataTypeTest {
     public void MultiValueMapTest(){
         MultiValueMap<String,String> map = new LinkedMultiValueMap<>();
         map.add("1","1");
+        map.add("1","2");
+        System.out.println(map);
     }
 }
 

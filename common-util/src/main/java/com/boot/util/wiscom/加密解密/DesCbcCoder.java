@@ -1,6 +1,7 @@
+/*
 package com.boot.util.wiscom.加密解密;
 
-import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
+//import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 
 import javax.crypto.*;
 import javax.crypto.spec.DESedeKeySpec;
@@ -13,15 +14,20 @@ import java.security.spec.AlgorithmParameterSpec;
 import java.security.spec.InvalidKeySpecException;
 
 
+*/
 /**
  * 3des cbc加密解密
  *
  * @author hwang
- * */
+ * *//*
+
 public class DesCbcCoder {
-    /**3des cbc解密，第一个参数是密文，第二个参数是秘钥，第三个参数是IV*/
+    */
+/**3des cbc解密，第一个参数是密文，第二个参数是秘钥，第三个参数是IV*//*
+
     public static String decrypt(String arg1, String arg2, byte[] arg3) throws NoSuchPaddingException, InvalidAlgorithmParameterException, NoSuchAlgorithmException, IllegalBlockSizeException, BadPaddingException, InvalidKeyException, InvalidKeySpecException {
-        return new String(decrypt(Base64.decode(arg1), arg2.getBytes(), arg3));
+//        return new String(decrypt(Base64.decode(arg1), arg2.getBytes(), arg3));
+        return "";
     }
     private static byte[] decrypt(byte[] arg2, byte[] arg3, byte[] arg4) throws NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, InvalidAlgorithmParameterException, BadPaddingException, IllegalBlockSizeException, InvalidKeySpecException {
         SecretKey v3 = SecretKeyFactory.getInstance("DESede").generateSecret(new DESedeKeySpec(arg3));
@@ -30,7 +36,9 @@ public class DesCbcCoder {
         return v0.doFinal(arg2);
     }
 
-    /**3des cbc加密，第一个参数是明文，第二个参数是秘钥，第三个参数是IV*/
+    */
+/**3des cbc加密，第一个参数是明文，第二个参数是秘钥，第三个参数是IV*//*
+
     public static String encrypt(String arg0, String arg1, byte[] arg2) {
         try {
             byte[] doFinal = encrypt(arg0.getBytes(), arg1.getBytes(), arg2);
@@ -50,3 +58,4 @@ public class DesCbcCoder {
 }
 
 
+*/

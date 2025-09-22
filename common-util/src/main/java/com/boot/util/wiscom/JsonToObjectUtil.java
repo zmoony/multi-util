@@ -7,6 +7,7 @@ package com.boot.util.wiscom;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.log4j.Log4j2;
@@ -24,7 +25,7 @@ public class JsonToObjectUtil {
     /**
      * 转换为Map<String, Object>
      * @param json
-     * @return 
+     * @return
      */
     public static Map<String, Object> jsonToMap(String json){
         Map<String, Object> map = null;
@@ -38,9 +39,9 @@ public class JsonToObjectUtil {
         }
         return map;
     }
-    
+
     public static <T> T jsonToObject(String json,Class<T> clazz){
-     
+
         try {
             ObjectMapper mapper = new ObjectMapper();
             return  mapper.readValue(json, clazz);
@@ -62,20 +63,20 @@ public class JsonToObjectUtil {
             return null;
         }
     }
-    
 
-    
-    
+
+
+
 
     /**
      * 耗时小于 jsonListMotorvehicleBean
      * @param json
-     * @return 
+     * @return
      */
     public static List<Object> jsonListObject(String json){
         List<Object> list=null;
         try {
-        
+
             ObjectMapper mapper = new ObjectMapper();
            // byte[] bytes = json.getBytes("UTF-8");
           //  list = mapper.readValue(bytes, new TypeReference<List<String>>(){});
@@ -87,20 +88,26 @@ public class JsonToObjectUtil {
         }
         return list;
     }
-//    public static List<MotorvehicleBean> jsonListMotorvehicleBean(String json){
-//        List<MotorvehicleBean> list;
-//        try {
-//            ObjectMapper mapper = new ObjectMapper();
-//           // byte[] bytes = json.getBytes("UTF-8");
-//          //  list = mapper.readValue(bytes, new TypeReference<List<String>>(){});
-//            list = mapper.readValue(json, new TypeReference<List<MotorvehicleBean>>(){});
-//        } catch (JsonGenerationException | JsonMappingException ex) {
-//            log.error("json解析成List失败："+ex.getMessage());
-//            list=null;
-//        } catch (IOException ex) {
-//            log.error("json解析成List失败："+ex.getMessage());
-//            list=null;
-//        }
-//        return list;
-//    }
+
+    /*
+    ** 使用   list = mapper.readValue(json, new TypeReference<List<T>>(){}); 返回的永远都是LinkedHashMap
+    *  TypeReference是编译的，T是运行的，所以无效
+    *  需要是应用JavaType指定。
+     */
+    public static <T> List<T> jsonList(String json,Class<T> clazz){
+        List<T> list;
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            list = mapper.readValue(json, new TypeReference<List<T>>(){});
+            JavaType type = mapper.getTypeFactory().constructParametricType(List.class, clazz);
+            list = mapper.readValue(json, type);
+        } catch (JsonGenerationException | JsonMappingException ex) {
+            log.error("json解析成List失败："+ex.getMessage());
+            list=null;
+        } catch (IOException ex) {
+            log.error("json解析成List失败："+ex.getMessage());
+            list=null;
+        }
+        return list;
+    }
 }

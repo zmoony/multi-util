@@ -1,0 +1,6 @@
+
+file:
+  upload:
+    path: ${user.dir}/project/store/pic
+  access:
+    path: /images

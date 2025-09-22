@@ -1,7 +1,6 @@
 package com.example.text.demoOnLine.java处理xml;
 
 
-import com.sun.org.apache.xml.internal.resolver.readers.SAXParserHandler;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;

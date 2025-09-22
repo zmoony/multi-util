@@ -22,10 +22,10 @@ public class TreeUtil {
                 // 过滤父节点
                 .filter(parent -> parentIdGetter.apply(parent).equals(parentId))
                 // 递归设置子节点
-                .map(item -> {
-//                    item.setChildren(streamToTree(list,item.getDeptId()));
+               /* .map(item -> {
+                    item.setChildren(streamToTree(list,item.getDeptId()));
                     return item;
-                })
+                })*/
                 .collect(Collectors.toList());
     }
 

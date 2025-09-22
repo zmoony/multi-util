@@ -1,16 +1,15 @@
 package com.example.text.java;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jdk.nashorn.internal.objects.NativeString;
-import org.apache.commons.lang3.StringUtils;
 import org.testng.annotations.Test;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
+
 
 /**
  * string
@@ -73,24 +72,72 @@ public class StringTest {
 
     @Test
     public void test1() throws JsonProcessingException {
-        String name="\u8fd9\u662f\u539f\u59cb\u7684\u6570\u636e\uff01\uff01\uff01";
-        System.out.println(new String(name));
-        System.out.println(name);
-        String s = "\\u67e5\\u8be2\\u6210\\u529f";
-        System.out.println(s); // \u67e5\u8be2\u6210\u529f
-
-
-        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))+".jpg");
-
-        String idcard = "321202198903193034";
-        System.out.println(idcard.substring(6,10)+"-"+idcard.substring(10,12)+"-"+idcard.substring(12,14));
-
-        Map<String, Object> image = new HashMap<>();
-        image.put("ids", Collections.singletonList("11111")); //图片id
-        ObjectMapper objectMapper = new ObjectMapper();
-        String s1 = objectMapper.writeValueAsString(image);
-        System.out.println(s1);
+        String ids = "12341,2342343";
+        ids=ids.replaceAll("[^,]+","'$0'");
+        System.out.println(ids);
     }
+
+    /**
+     * 25 男士
+     * 45 女士
+     */
+    @Test
+    public void numAdept(){
+        int total = 231;
+        int min = 131;
+        int [] nums = new int[2];
+        int sum=0;
+        for (int i = 0; i < 100; i++) {
+            for (int j = 0; j < 100; j++) {
+                 sum = 25*i + 45*j;
+                if (sum == total){
+                    System.out.println("【完美】男士25，次数："+i+";女士45，次数："+j);
+                }
+                if(sum > total){
+                    break;
+                }
+                if(total - sum < min){
+                    min = total - sum;
+                    nums[0] = i;
+                    nums[1] = j;
+                }
+
+            }
+        }
+        System.out.println("【最接近】差额："+min+";男士25，次数："+nums[0]+";女士45，次数："+nums[1]+";");
+        System.out.println("计算结束");
+    }
+
+    @Test
+    public void mdoTest () {
+        System.out.println("4%4="+4%4);
+        System.out.println("4/4="+4/4);
+        System.out.println("4%5="+4%5);
+        System.out.println("4/5="+4/5);
+        System.out.println("4%8="+4%8);
+        System.out.println("4/8="+4/8);
+    }
+
+
+    @Test
+    public void templateMessage () {
+        String content = "我是{name},我今年{age}了";
+        String name = "小明";
+        String age = "18";
+        content = content.replace("{name}",name).replace("{age}",age);
+        System.out.println(content);
+
+    }
+
+    @Test
+    public void templateMessage2 () {
+        String content = "我是{name},我今年{age}了";
+        String name = "小明";
+        String age = "18";
+
+
+    }
+
 
 
 

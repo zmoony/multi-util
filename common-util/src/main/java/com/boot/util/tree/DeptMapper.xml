@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wisvision.wvcriminalinspectservice.mapper.DeptMapper">
+
+    <select id="getLowerDeptTree" resultType="com.wisvision.wvcriminalinspectservice.beans.vo.DeptVo">
+        with recursive depts as (select t1.dept_id,
+                                        t1.dept_name,
+                                        t1.dept_code,
+                                        t1.level,
+                                        t1.parent_id,
+                                        t1.ancestors
+                                 from sys.dept t1
+                                 where t1.del_flag = '0'
+                                   and t1.status = '0'
+                                   and t1.dept_id = #{deptId}
+                                 union all
+                                 select t1.dept_id,
+                                        t1.dept_name,
+                                        t1.dept_code,
+                                        t1.level,
+                                        t1.parent_id,
+                                        t1.ancestors
+                                 from sys.dept t1
+                                          inner join depts t2 on t2.dept_id = t1.parent_id
+                                 where t1.del_flag = '0'
+                                   and t1.status = '0')
+        select * from depts
+    </select>
+
+    <select id="getLocalAndLowerDeptTree" resultType="com.wisvision.wvcriminalinspectservice.beans.vo.DeptVo">
+        with recursive depts as (select t1.dept_id,
+                                        t1.dept_name,
+                                        t1.dept_code,
+                                        t1.level,
+                                        t1.parent_id,
+                                        t1.ancestors
+                                 from sys.dept t1
+                                 where t1.del_flag = '0'
+                                   and t1.status = '0'
+                                   and t1.dept_id = #{deptId}
+                       union all
+                       select t1.dept_id,
+                           t1.dept_name,
+                           t1.dept_code,
+                           t1.level,
+                           t1.parent_id,
+                           t1.ancestors
+                       from sys.dept t1
+                           inner join depts t2 on t2.dept_id = t1.parent_id
+                       where t1.del_flag = '0'
+                         and t1.status = '0')
+                       select * from depts
+    </select>
+
+</mapper>

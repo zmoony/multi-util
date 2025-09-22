@@ -20,6 +20,7 @@ public class Student {
     @Size(min=2, max = 4, message = "名字字符长度必须为 2~4个")
     private String name;
     @Pattern(regexp = "^1(3\\d|4[5-9]|5[0-35-9]|6[567]|7[0-8]|8\\d|9[0-35-9])\\d{8}$", message = "手机号格式错误")
+    @CustomValid
     private String phone;
     @Email(message = "邮箱格式错误")
     private String email;
@@ -38,3 +39,5 @@ public class Student {
     public interface Create{}
 
 }
+
+

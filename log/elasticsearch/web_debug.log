@@ -1,2 +1,2 @@
-2024-02-01 17:34:37.376 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
-2024-02-01 17:34:38.894 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.18.12.21:9312]
+2025-05-23 14:48:15.935 [main] DEBUG com.boot.es.EsApplication - Running with Spring Boot v2.4.3, Spring v5.3.4
+2025-05-23 14:48:18.829 [main] DEBUG com.boot.es.config.ESConfig - common-hosts:[http://172.18.12.21:9312]

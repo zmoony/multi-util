@@ -1,20 +1,20 @@
-2024-02-06 10:13:07.599 [main] INFO  com.boot.kafka.KafkaApplication - Starting KafkaApplication using Java 17.0.6 on aurora with PID 28976 (D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-kafka\target\classes started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold)
-2024-02-06 10:13:07.608 [main] INFO  com.boot.kafka.KafkaApplication - The following profiles are active: dev,kafka,business
-2024-02-06 10:13:08.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2024-02-06 10:13:08.469 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2024-02-06 10:13:08.488 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
-2024-02-06 10:13:09.020 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9200 (http)
-2024-02-06 10:13:09.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9200"]
-2024-02-06 10:13:09.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2024-02-06 10:13:09.037 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
-2024-02-06 10:13:09.178 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-02-06 10:13:09.178 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1508 ms
-2024-02-06 10:13:09.310 [main] INFO  com.boot.kafka.common.GlobalObject - kafka配置读取成功
-2024-02-06 10:13:09.387 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
-2024-02-06 10:13:09.412 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2024-02-06 10:13:09.412 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
-2024-02-06 10:13:09.414 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
-2024-02-06 10:13:09.415 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2025-05-30 16:33:12.376 [main] INFO  com.boot.kafka.KafkaApplication - Starting KafkaApplication using Java 17.0.6 on aurora with PID 2500 (D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-kafka\target\classes started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold)
+2025-05-30 16:33:12.383 [main] INFO  com.boot.kafka.KafkaApplication - The following profiles are active: dev,kafka,business
+2025-05-30 16:33:13.479 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 16:33:13.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-30 16:33:13.561 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2025-05-30 16:33:14.234 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9200 (http)
+2025-05-30 16:33:14.245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9200"]
+2025-05-30 16:33:14.245 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-30 16:33:14.245 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2025-05-30 16:33:14.426 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-30 16:33:14.426 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1954 ms
+2025-05-30 16:33:14.495 [main] INFO  com.boot.kafka.common.GlobalObject - kafka配置读取成功
+2025-05-30 16:33:14.539 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-30 16:33:14.554 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-30 16:33:14.554 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-30 16:33:14.555 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-30 16:33:14.556 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -22,15 +22,15 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2024-02-06 10:13:09.415 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2024-02-06 10:13:09.415 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
-2024-02-06 10:13:09.415 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4628a02b
-2024-02-06 10:13:09.416 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2024-02-06 10:13:09.416 [main] INFO  com.boot.kafka.config.task.SchedulerConfig - 调度器启动成功
-2024-02-06 10:13:09.520 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+2025-05-30 16:33:14.556 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-30 16:33:14.556 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-30 16:33:14.556 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6fd1ea75
+2025-05-30 16:33:14.557 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-30 16:33:14.557 [main] INFO  com.boot.kafka.config.task.SchedulerConfig - 调度器启动成功
+2025-05-30 16:33:14.612 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
 	acks = all
 	batch.size = 16384
-	bootstrap.servers = [172.18.12.21:18103]
+	bootstrap.servers = [172.17.112.121:18103]
 	buffer.memory = 33554432
 	client.id = 
 	compression.type = none
@@ -89,35 +89,131 @@
 	transactional.id = null
 	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
 
-2024-02-06 10:13:09.567 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
-2024-02-06 10:13:09.775 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.0
-2024-02-06 10:13:09.779 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : 3402a8361b734732
-2024-02-06 10:13:09.787 [main] INFO  com.boot.kafka.util.KafkaUtil - 等幂模式Kafka生产者初始化成功
-2024-02-06 10:13:10.295 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 57593 with epoch 0
-2024-02-06 10:13:10.752 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2024-02-06 10:13:11.226 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9200"]
-2024-02-06 10:13:11.250 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9200 (http) with context path ''
-2024-02-06 10:13:11.466 [main] INFO  com.boot.kafka.KafkaApplication - Started KafkaApplication in 4.535 seconds (JVM running for 5.403)
-2024-02-06 10:13:21.379 [http-nio-9200-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-02-06 10:13:21.380 [http-nio-9200-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-02-06 10:13:21.382 [http-nio-9200-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2024-02-06 10:14:41.500 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: S634Xh8ISlqe8plq9NbJLA
-2024-02-06 10:14:41.525 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@0
-2024-02-06 10:14:41.528 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@1
-2024-02-06 10:14:41.533 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@2
-2024-02-06 10:14:41.536 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@3
-2024-02-06 10:14:41.540 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@4
-2024-02-06 10:14:41.543 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@5
-2024-02-06 10:14:41.546 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@6
-2024-02-06 10:14:41.549 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@7
-2024-02-06 10:14:41.552 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@8
-2024-02-06 10:14:41.555 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@9
-2024-02-06 10:14:41.558 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@10
-2024-02-06 10:14:41.563 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@11
-2024-02-06 10:14:41.565 [http-nio-9200-exec-9] INFO  com.boot.kafka.dao.ProducerDao - wiscom.vehiclels-0@12
-2024-02-06 14:04:37.275 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2024-02-06 14:04:37.351 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-02-06 14:04:37.353 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
-2024-02-06 14:04:37.353 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2024-02-06 14:04:37.353 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2024-02-06 14:04:37.353 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-30 16:33:14.634 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2025-05-30 16:33:14.716 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.0
+2025-05-30 16:33:14.716 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : 3402a8361b734732
+2025-05-30 16:33:14.718 [main] INFO  com.boot.kafka.util.KafkaUtil - 等幂模式Kafka生产者初始化成功
+2025-05-30 16:33:14.927 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 3000 with epoch 0
+2025-05-30 16:33:15.379 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-05-30 16:33:16.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9200"]
+2025-05-30 16:33:16.092 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9200 (http) with context path ''
+2025-05-30 16:33:16.323 [main] INFO  com.boot.kafka.KafkaApplication - Started KafkaApplication in 4.71 seconds (JVM running for 6.088)
+2025-05-30 16:33:39.006 [http-nio-9200-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 16:33:39.006 [http-nio-9200-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-30 16:33:39.008 [http-nio-9200-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-30 16:34:38.829 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-30 16:34:38.989 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-05-30 16:34:38.992 [SpringContextShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2025-05-30 16:34:38.992 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-05-30 16:34:38.993 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-30 16:34:38.993 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-05-30 16:34:49.491 [main] INFO  com.boot.kafka.KafkaApplication - Starting KafkaApplication using Java 17.0.6 on aurora with PID 23764 (D:\project\code\self_util_plugin\scaffold\muti-scaffold\boot-kafka\target\classes started by yuez in D:\project\code\self_util_plugin\scaffold\muti-scaffold)
+2025-05-30 16:34:49.493 [main] INFO  com.boot.kafka.KafkaApplication - The following profiles are active: dev,kafka,business
+2025-05-30 16:34:50.949 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 16:34:50.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-05-30 16:34:51.038 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+2025-05-30 16:34:51.762 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9200 (http)
+2025-05-30 16:34:51.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9200"]
+2025-05-30 16:34:51.775 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-30 16:34:51.775 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2025-05-30 16:34:51.962 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-30 16:34:51.963 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2399 ms
+2025-05-30 16:34:52.156 [main] INFO  com.boot.kafka.common.GlobalObject - kafka配置读取成功
+2025-05-30 16:34:52.201 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2025-05-30 16:34:52.215 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-05-30 16:34:52.215 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2025-05-30 16:34:52.216 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2025-05-30 16:34:52.217 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-05-30 16:34:52.217 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-05-30 16:34:52.217 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2025-05-30 16:34:52.217 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7440265c
+2025-05-30 16:34:52.217 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-05-30 16:34:52.218 [main] INFO  com.boot.kafka.config.task.SchedulerConfig - 调度器启动成功
+2025-05-30 16:34:52.300 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = all
+	batch.size = 16384
+	bootstrap.servers = [172.17.112.121:18103]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2025-05-30 16:34:52.322 [main] INFO  org.apache.kafka.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+2025-05-30 16:34:52.405 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka version : 2.0.0
+2025-05-30 16:34:52.405 [main] INFO  org.apache.kafka.common.utils.AppInfoParser - Kafka commitId : 3402a8361b734732
+2025-05-30 16:34:52.408 [main] INFO  com.boot.kafka.util.KafkaUtil - 等幂模式Kafka生产者初始化成功
+2025-05-30 16:34:52.590 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.producer.internals.TransactionManager - [Producer clientId=producer-1] ProducerId set to 3001 with epoch 0
+2025-05-30 16:34:53.257 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-05-30 16:34:53.454 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-05-30 16:34:54.008 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9200"]
+2025-05-30 16:34:54.035 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9200 (http) with context path ''
+2025-05-30 16:34:54.282 [main] INFO  com.boot.kafka.KafkaApplication - Started KafkaApplication in 5.555 seconds (JVM running for 6.792)
+2025-05-30 16:34:54.809 [RMI TCP Connection(4)-172.18.12.192] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30 16:34:54.809 [RMI TCP Connection(4)-172.18.12.192] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-30 16:34:54.811 [RMI TCP Connection(4)-172.18.12.192] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-05-30 16:37:43.588 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - Cluster ID: uceLTU31TlShsv6XXUvl7Q
+2025-05-30 16:37:43.679 [http-nio-9200-exec-3] INFO  com.boot.kafka.dao.ProducerDao - test1-0@13
+2025-05-30 16:37:54.198 [http-nio-9200-exec-8] INFO  com.boot.kafka.dao.ProducerDao - test4-0@7
+2025-05-30 16:37:56.134 [http-nio-9200-exec-2] INFO  com.boot.kafka.dao.ProducerDao - test4-0@8
+2025-05-30 17:37:42.816 [SpringContextShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-05-30 17:37:42.926 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

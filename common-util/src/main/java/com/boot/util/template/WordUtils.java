@@ -6,7 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.core.io.ClassPathResource;
-import sun.misc.BASE64Encoder;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -16,6 +15,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Base64;
 import java.util.Map;
 
 /**
@@ -196,7 +196,8 @@ public class WordUtils {
                 inputStream.read(buffer);
             }
             // 对字节数组Base64编码
-            return new BASE64Encoder().encode(buffer);
+
+            return Base64.getEncoder().encodeToString(buffer);
         } catch (Exception e) {
             log.error("图片转换失败：{}", e.getMessage());
             return "";
