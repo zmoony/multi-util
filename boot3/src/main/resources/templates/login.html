@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+
+<p>【用户名】：
+<div><input id="toUserId" name="toUserId" type="text" value="admin"></div>
+<p>【密码】：
+<div><input id="contentText" name="contentText" type="text" value="wiscom"></div>
+<p>【操作】：
+<div>
+    <button type="button" onclick="sendMessage()">登录</button>
+</div>
+</body>
+
+<script type="text/javascript">
+    const sendMessage = () => {
+        const toUserId = document.getElementById("toUserId").value;
+        const contentText = document.getElementById("contentText").value;
+        fetch("http://localhost:9527/oauth/token", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                username: toUserId,
+                password: contentText
+            })
+        }).then(response => {
+            console.log(response);
+        });
+    }
+
+</script>
+</html>
+

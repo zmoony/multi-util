@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: boot-dubbo-consumer
+    qos-enable: true
+    qos-port: 33333
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://${zookeeper.address:172.18.12.144}:2181
+
+zookeeper:
+  address: 172.18.12.144
